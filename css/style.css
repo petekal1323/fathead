@@ -28,6 +28,13 @@ html, body {
 	margin: 15px auto;
 }
 
+.small-rect {
+    max-width: 15%;
+    height: 2px;
+    padding: 0 5px;
+    margin: 2% auto;
+}
+
 h3 {
 	font-size: 40px;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -56,26 +63,38 @@ h6 {
 .variety{
 	margin: 4% auto;
 }
-.img-box-section .row .col-md-4{
-	display: block;
+.img-box-section .row .col-md-4 {
+    display: block;
+    margin: 10px auto;
 }
 .img-box-section .row .centered {
 	display: block;
 	margin: 0 auto;
 }
 .img-box p {
-    font-size: 12px;
+    font-size: 16px;
     font-family: 'Roboto Condensed', sans-serif;
     color: rgb(48, 48, 48);
     line-height: 1.313;
     text-align: center;
-    padding: 8% 10%;
+    padding: 3% 12% 11%;
 }
 
 .img-box:hover{
-	box-shadow: 0px 5px 30px 5px #111;
+	box-shadow: 0px 5px 30px 1px #444;
 
 }
+.spider-box p{
+	padding: 7%;
+}
+
+.cowboy-box p {
+    padding: 7% 10% 12%;
+}
+.custom-box p {
+    padding: 3px 2%;
+}
+
 
 
 .wall_murals{
@@ -116,17 +135,17 @@ td{
 
 
 .shop {
-	font-size: 16px;
-	font-family: 'Roboto Condensed', sans-serif;
-	color: rgb(255, 255, 255);
-	line-height: 1.313;
-	text-align: center;
-	height: 45px;
-	width: 60%;
-	margin: 0 20%;
-	background-color: #ff632d;
-	border: 0;
-    border-radius: 0;
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.313;
+    text-align: center;
+    height: 45px;
+    width: 60%;
+    margin: 5% 20%;
+    background-color: #ff632d;
+    border: 0;
+    border-radius: 2px;
     -webkit-appearance: none;
 }
 
@@ -168,6 +187,9 @@ th{
 	font-size: 9.5px;
 
 }
+
+
+
 
 
 
