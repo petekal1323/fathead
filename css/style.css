@@ -165,13 +165,40 @@ img{
     display: block;
     margin: 0 auto;
 
+
 }
+
+
+.vader-box{
+    margin-left: 17%;
+}
+
 
 
 footer{
 	background-color: #0e6eb8;
 	height: 300px;
 }
+
+@media screen and (max-width: 2400px) and (min-width:1200px) {
+	.bottom-row .centered .vader-box{
+    margin-left: 17%;
+}
+}
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+    .custom-box p {
+    padding: 2px 9%;
+    margin: -9px;
+}
+	.bottom-row .centered .vader-box{
+    margin-left: 17%;
+}
+}
+
+
+
+
+
 
 
 @media (max-width: 520px){
@@ -186,6 +213,7 @@ td{
 th{
 	font-size: 9.5px;
 
+}
 }
 
 
